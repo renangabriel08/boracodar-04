@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #1A1924;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    margin: 3.2rem 7.2rem;
+    @media(max-width: 80rem) {
+        margin: 2.4rem 3.2rem;
+    }
+}
